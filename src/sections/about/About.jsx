@@ -29,7 +29,7 @@ const About = () => {
             Hola, mi nombre es Cristian Urrea. Titulado como Técnico Superior FP
             en Desarrollo de aplicaciones multiplataforma (DAM) y en Desarrollo
             de aplicaciones web (DAW). Trabajé como desarrollador web en el
-            sector de los eventos en Barcelona, en Meetmaps.
+            sector de los eventos en Barcelona, en Meetmaps. Tambien como desarrollador front y back y atención al cliente en Egaraset S.L 
           </p>
           <a href={CV} download className="btn primary">
             Descargar CV <HiDownload />
