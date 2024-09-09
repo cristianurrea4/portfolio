@@ -1,4 +1,4 @@
-import { SiAdobexd } from "react-icons/si";
+import { SiAdobexd, SiPython  } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiFillAppstore } from "react-icons/ai";
@@ -35,6 +35,12 @@ const data = [
     title: "Multi-Device",
     desc: "Utilización de Delphi 11 y generación de facturas con Quickreport y Fastresport VCL",
   },
+  {
+    id: 6,
+    icon: <SiPython />,
+    title: "Python Development",
+    desc: "Desarrollo de aplicaciones y análisis de datos utilizando Python, con experiencia en proyectos de inteligencia artificial y machine learning. Manejo de diversas herramientas y tecnologías (Python, Flask, Pandas, NumPy, SQLAlchemy, Matplotlib, Jira). Experiencia en manipulación y procesamiento de datos en múltiples formatos (JSON, CSV, Excel) y en el uso de datasets de Kaggle. Implementación de modelos de entrenamiento (Linear Regression, Random Forest, Decision Tree, K-Nearest Neighbors, Support Vector Machines), y evaluación de modelos con métricas (Mean Squared Error, R^2).",
+  }
 ];
 
 export default data;

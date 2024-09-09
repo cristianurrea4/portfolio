@@ -10,6 +10,7 @@ const Services = () => {
       <div className="container services__container" data-aos="fade-up">
         {data.map((item) => (
           <Card key={item.id} className="service light">
+            {item.id === 6 && <span className="service__badge">Update</span>}
             <div className="service__icon">{item.icon}</div>
             <div className="service__details">
               <h4>{item.title}</h4>
