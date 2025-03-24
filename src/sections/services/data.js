@@ -1,4 +1,4 @@
-import { SiAdobexd, SiPython  } from "react-icons/si";
+import { SiAdobexd, SiPython, SiTensorflow } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiFillAppstore } from "react-icons/ai";
@@ -40,6 +40,12 @@ const data = [
     icon: <SiPython />,
     title: "Python Development",
     desc: "Desarrollo de aplicaciones y análisis de datos utilizando Python, con experiencia en proyectos de inteligencia artificial y machine learning. Manejo de diversas herramientas y tecnologías (Python, Flask, Pandas, NumPy, SQLAlchemy, Matplotlib, Jira). Experiencia en manipulación y procesamiento de datos en múltiples formatos (JSON, CSV, Excel) y en el uso de datasets de Kaggle. Implementación de modelos de entrenamiento (Linear Regression, Random Forest, Decision Tree, K-Nearest Neighbors, Support Vector Machines), y evaluación de modelos con métricas (Mean Squared Error, R^2).",
+  },
+  {
+    id: 7,
+    icon: <SiTensorflow />,
+    title: "Machine Learning & AI",
+    desc: "Implementación de modelos de machine learning con scikit-learn, XGBoost, LightGBM y TensorFlow. Análisis y procesamiento de datos con técnicas avanzadas. Evaluación de modelos con métricas como ROC AUC, F1-score y Recall.",
   }
 ];
 
