@@ -69,9 +69,6 @@ const App = () => {
       <Header />
       <About />
       <Services />
-      {/* <Portfolio /> */}
-      {/* <Testimonials /> */}
-      {/* <FAQs /> */}
       <Contact />
       <Footer />
       <Theme />
