@@ -21,8 +21,8 @@ const data = [
     id: 3,
     icon: <FaServer />,
     title: "Backend Development",
-    desc: "Utilización de las tecnologías (PHP) y los frameworks como (Ruby on Rails, NodeJs) y de uso de base de datos (relacionadas: SQL Server y MySQL, no relacionadas: MongoDB)",
-  },
+    desc: `Utilización de las tecnologías (<span>.ASP <span class='mini-badge'>New</span>, PHP) y los frameworks como (<span>Laravel 11/12 <span class='mini-badge'>New</span></span>, Ruby on Rails, NodeJs) y de uso de base de datos (relacionadas: SQL Server y MySQL, no relacionadas: MongoDB)`,
+  },  
   {
     id: 4,
     icon: <AiFillAppstore />,

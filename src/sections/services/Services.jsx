@@ -15,7 +15,7 @@ const Services = () => {
             <div className="service__icon">{item.icon}</div>
             <div className="service__details">
               <h4>{item.title}</h4>
-              <p>{item.desc}</p>
+              <p dangerouslySetInnerHTML={{ __html: item.desc }} />
             </div>
           </Card>
         ))}

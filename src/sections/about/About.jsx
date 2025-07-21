@@ -26,13 +26,12 @@ const About = () => {
             ))}
           </div>
           <p>
-            Hola, mi nombre es Cristian Urrea. Soy un programador con más de 4 años de experiencia en desarrollo web y análisis de datos. 
-            Cuento con una titulación como Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web (DAW). 
-            Durante mi trayectoria, he trabajado en distintos sectores, destacando mi rol en Meetmaps como desarrollador Full Stack en el sector de eventos, 
-            donde implementé soluciones en frontend y backend. También he trabajado en Egaraset S.L., donde desarrollé soluciones en Delphi 11, 
-            optimicé bases de datos en SQL Server y brindé soporte técnico a clientes.  
-            Además, tengo experiencia en el sector asegurador, aplicando machine learning para el análisis de datos y predicción de churn en Melmacia.  
-            Me apasiona la tecnología y el aprendizaje continuo, siempre buscando mejorar mis habilidades para aportar valor en cada proyecto en el que participo.
+            Hola, mi nombre es Cristian Urrea. Soy Programador Full Stack con experiencia en desarrollo web, análisis de datos y soporte técnico. He trabajado en
+            diversos sectores como el sociosanitario, asegurador, eventos y gestión empresarial. En GDR desarrollé soluciones web para la
+            gestión de residencias, usando tecnologías como PHP (Laravel), JavaScript y SQL Server. En Melmacia apliqué modelos de
+            machine learning para predecir el churn en seguros, y en Egaraset optimicé un ERP desarrollado en Delphi. También tengo
+            experiencia en entornos ágiles y metodologías SOLID, adquirida en proyectos Full Stack en Meetmaps. Comprometido con la
+            mejora continua, la calidad del software y la resolución de incidencias.
           </p>
           <a href={CV} download className="btn primary">
             Descargar CV <HiDownload />

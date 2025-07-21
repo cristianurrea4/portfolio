@@ -10,6 +10,25 @@
     gap: 1rem;
 }
 
+.mini-badge {
+  display: inline-block;
+  background-color: #ff453a;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0.1rem 0.3rem;
+  margin-left: 4px;
+  border-radius: 4px;
+  animation: mini-pulse 1.5s infinite;
+  vertical-align: top;
+}
+
+@keyframes mini-pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
 .service__icon {
     background: var(--color-primary);
     padding: 0.6rem;
