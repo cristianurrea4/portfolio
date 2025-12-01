@@ -27,11 +27,11 @@ const About = () => {
           </div>
           <p>
             Hola, mi nombre es Cristian Urrea. Soy Programador Full Stack con experiencia en desarrollo web, análisis de datos y soporte técnico. He trabajado en
-            diversos sectores como el sociosanitario, asegurador, eventos y gestión empresarial. En GDR desarrollé soluciones web para la
-            gestión de residencias, usando tecnologías como PHP (Laravel), JavaScript y SQL Server. En Melmacia apliqué modelos de
-            machine learning para predecir el churn en seguros, y en Egaraset optimicé un ERP desarrollado en Delphi. También tengo
-            experiencia en entornos ágiles y metodologías SOLID, adquirida en proyectos Full Stack en Meetmaps. Comprometido con la
-            mejora continua, la calidad del software y la resolución de incidencias.
+            sectores como el sociosanitario, asegurador, eventos y gestión empresarial. En GDR desarrollé soluciones web para la gestión de
+            residencias utilizando PHP (Laravel), JavaScript y SQL Server. En Melmacia apliqué modelos de machine learning para
+            predecir el churn en seguros, y en Egaraset optimicé un ERP desarrollado en Delphi. En Meetmaps participé en proyectos Full
+            Stack aplicando Angular, TypeScript y arquitecturas modulares con lazy loading y servicios reutilizables, además de principios
+            SOLID y metodologías ágiles. Comprometido con la mejora continua, la calidad del software y la resolución de incidencias.
           </p>
           <a href={CV} download className="btn primary">
             Descargar CV <HiDownload />
