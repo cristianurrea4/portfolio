@@ -1,0 +1,114 @@
+.projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.card.project {
+    padding: 0;
+    overflow: hidden;
+}
+
+.card.project:hover {
+    transform: translateY(-0.5rem);
+}
+
+/* PREVIEW (miniatura representativa del proyecto) */
+.project__preview {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.project__preview-dots {
+    position: absolute;
+    top: 1rem;
+    left: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.project__preview-dots span {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.project__preview-icon {
+    font-size: 3.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    transition: var(--transition);
+}
+
+.card.project:hover .project__preview-icon {
+    transform: scale(1.15);
+}
+
+/* DETALLES */
+.project__details {
+    padding: 1.5rem;
+}
+
+.project__details h4 {
+    margin-bottom: 0.6rem;
+}
+
+.project__details > p {
+    color: var(--color-dark);
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+}
+
+.project__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.project__badge {
+    background: var(--color-light);
+    color: var(--color-dark);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--border-radius-3);
+    transition: var(--transition);
+}
+
+.card.project:hover .project__badge {
+    background: var(--color-white);
+}
+
+.project__btn {
+    width: 100%;
+    justify-content: center;
+}
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+    .projects__container {
+        gap: 1.5rem;
+    }
+
+    .project__preview {
+        height: 12rem;
+    }
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .projects__container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .project__preview {
+        height: 11rem;
+    }
+}

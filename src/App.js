@@ -1,6 +1,7 @@
 import Navbar from "./sections/navbar/Navbar";
 import Header from "./sections/header/Header";
 import About from "./sections/about/About";
+import Projects from "./sections/projects/Projects";
 import Services from "./sections/services/Services";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
@@ -69,6 +70,7 @@ const App = () => {
       <Header />
       <About />
       <Services />
+      <Projects />
       <Contact />
       <Footer />
       <Theme />
