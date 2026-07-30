@@ -19,10 +19,10 @@ export const ThemeProvider = ({ children }) => {
     dispatchTheme({ type: buttonClassName });
   };
 
-  //Guardar la configuración del temas en local
+  // Guardar la configuración del tema en localStorage cuando el estado cambia
   useEffect(() => {
     localStorage.setItem("themeSettings", JSON.stringify(themeState));
-  }, [themeState.primary, themeState.background]);
+  }, [themeState]);
 
   return (
     <ThemeContext.Provider value={{ themeState, themeHandler }}>

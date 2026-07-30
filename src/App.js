@@ -52,7 +52,7 @@ const App = () => {
     setSiteYPosition(mainRef?.current?.getBoundingClientRect().y);
   };
 
-  // Usa el hook useEffect para crear un intervalo que ejecute la función floatNavToggleHandler cada 2 segundos
+  // Usa el hook useEffect para crear un intervalo que ejecute la función floatingNavToggleHandler cada 2 segundos
   useEffect(() => {
     const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
 
